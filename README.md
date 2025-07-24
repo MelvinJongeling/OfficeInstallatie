@@ -27,5 +27,13 @@ $env:officeVersion = "Office21"
 ## NinjaOne integratie
 Het script is geschikt voor gebruik met NinjaOne door de variabele `$env:officeVersion`. Je kunt deze variabele als parameter meegeven via NinjaOne policies.
 
-## Licentie
-Dit project is open source en mag vrij gebruikt en aangepast worden.
+
+## Belangrijk: Configuratiebestanden
+
+De meegeleverde configuratiebestanden in de map `Configs` zijn specifiek gemaakt voor mijn eigen omgeving. Deze werken waarschijnlijk niet voor andere organisaties of situaties. 
+
+**Wil je zelf Office installeren met eigen instellingen?**
+- Maak je eigen configuratiebestanden en sla deze lokaal op in de map `Configs` op de werkplek.
+- Of geef in het script je eigen URL op waar de configuratiebestanden te downloaden zijn.
+
+Zorg ervoor dat je configuratiebestanden aansluiten bij jouw licentie, gewenste Office-versie en instellingen.
