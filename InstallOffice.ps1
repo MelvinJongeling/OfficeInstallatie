@@ -18,7 +18,7 @@ if (!(Test-Path $odtPath)) {
 
 # Definieer beschikbare configs in het script
 $configs = @{
-    "Office21" = "D:\ODT\Configs\Office21.xml"
+    "Office2021" = "D:\ODT\Configs\Office2021.xml"
     "Office365"      = "D:\ODT\Configs\Office365.xml"
 }
 
