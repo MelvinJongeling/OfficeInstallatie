@@ -43,7 +43,7 @@ if (!(Test-Path $configFile)) {
         New-Item -ItemType Directory -Path $configDir | Out-Null
     }
     Write-Host "Config file $configFile niet gevonden, downloaden van GitHub..."
-    $githubUrl = "https://gist.githubusercontent.com/MelvinJongeling/4752223f0a3d63c8c561929abe33f3fa/raw/540e17b48d1524c6b7a3257b314e4ae86158e838/$env:officeVersion.xml"
+    $githubUrl = "https://github.com/MelvinJongeling/OfficeInstallatie/tree/main/Configs/$env:officeVersion.xml"
     Invoke-WebRequest -Uri $githubUrl -OutFile $configFile
 }
 
